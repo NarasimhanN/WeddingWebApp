@@ -28,16 +28,16 @@ export default function AdditionalInfoSection() {
 
           <div className="bg-white p-6 rounded-lg shadow-md">
             <Phone className="w-8 h-8 mb-4 text-pink-500" />
-            <h3 className="text-xl font-semibold mb-2">Emergency Contacts</h3>
+            <h3 className="text-xl font-semibold mb-2">Stuck somewhere?</h3>
             <p className="mb-2">
-              Stuck somewhere? Need help? For any assistance, contact:
+              Call us @:
             </p>
             <ul className="space-y-2">
               <li>
-                Karthik <PhoneNo phoneNo="9482840533" />
+                Karthik <PhoneNo phoneNo="7019487545" />
               </li>
               <li>
-                Manas <PhoneNo phoneNo="9482840533" />
+                Manas <PhoneNo phoneNo="8618493115" />
               </li>
             </ul>
           </div>
