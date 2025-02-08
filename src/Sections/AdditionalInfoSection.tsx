@@ -17,7 +17,7 @@ export default function AdditionalInfoSection() {
               them to our shared album:
             </p>
             <a
-              href="https://drive.google.com/drive/folders/zxk5d6Lv6vzRp8ZiCmcvNwS_UMro_fs8?usp=drive_link"
+              href="https://drive.google.com/drive/folders/1zxk5d6Lv6vzRp8ZiCmcvNwS_UMro_fs8?usp=drive_link"
               className="inline-flex items-center text-pink-500 hover:text-pink-600"
               target="_blank"
               rel="noopener noreferrer"
