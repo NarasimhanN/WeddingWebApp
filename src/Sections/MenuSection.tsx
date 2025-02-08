@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Coffee, HandPlatter, ChevronDown, CookingPot } from "lucide-react";
 
-import foodImg from "../data/images/southIndianFood.jpg"; // Adjust path as needed
+import foodImg from "../data/images/southIndianFood-3.jpg"; // Adjust path as needed
 
 interface MenuCategory {
   title: string;
