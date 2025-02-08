@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Coffee, UtensilsCrossed, Wine, ChevronDown } from "lucide-react";
+import { Coffee, HandPlatter, ChevronDown, CookingPot } from "lucide-react";
 
-// Unsplash food image for production use
 import foodImg from "../data/images/southIndianFood.jpg"; // Adjust path as needed
 
 interface MenuCategory {
@@ -43,7 +42,7 @@ export default function FoodSection({ menuData }: MenuSectionProps) {
         <p className="text-center text-lg mb-6">Who doesn’t love great food?</p>
 
         <div className="space-y-6">
-          {["breakfast", "lunch", "dinner"].map((section) => (
+          {["dinner", "breakfast", "lunch"].map((section) => (
             <div
               key={section}
               className="bg-white bg-opacity-90 p-6 rounded-2xl shadow-lg"
@@ -59,10 +58,10 @@ export default function FoodSection({ menuData }: MenuSectionProps) {
                     <Coffee className="w-6 h-6 mr-2 text-pink-500" />
                   )}
                   {section === "lunch" && (
-                    <UtensilsCrossed className="w-6 h-6 mr-2 text-pink-500" />
+                    <CookingPot className="w-6 h-6 mr-2 text-pink-500" />
                   )}
                   {section === "dinner" && (
-                    <Wine className="w-6 h-6 mr-2 text-pink-500" />
+                    <HandPlatter className="w-6 h-6 mr-2 text-pink-500" />
                   )}
                   {menuData[section as keyof MenuData].title}
                 </div>

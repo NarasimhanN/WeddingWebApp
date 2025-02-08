@@ -1,96 +1,77 @@
-// export const menuData = {
-//   breakfast: {
-//     title: "Breakfast",
-//     items: [
-//       "Idly - Sambhar & Chutney",
-//       "Neer dosa ",
-//       "Pongal",
-//       "Kashi halwa (aka pumkin halwa)",
-//       "Coffee | Tea",
-//       "Lemon Pudina juice (at 11:30am)",
-//     ],
-//   },
-//   lunch: {
-//     title: "Lunch",
-//     items: [
-//       "Nelikai juice",
-//       "Basics - Aplam (papad), Picket, salt",
-//       "Beans curry",
-//       "sweet corn salad",
-//       "Pinapple goggu",
-//       "Peni (sweet)",
-//       "Badam halwa",
-//       "Vege bonda",
-//       "Kuruskethra",
-
-//       "Vegetable Kutu",
-//       "Pepper rasam",
-//       "Curd",
-//     ],
-//   },
-//   // Reception menu
-//   dinner: {
-//     title: "Dinner",
-//     items: [
-//       "Sugarcase juice (at entrance)",
-//       "Chats (at entrance)",
-//       "Coconut soup",
-//       "Babycorn manchuri",
-//       "Panner tikka",
-//       "Munbagal Dosa",
-//       "Cashew Ghee rice",
-//       "Dal curry",
-//       "Veg curry",
-//       "Tandoor roti",
-//       "Sambhar with rice",
-//       "Rasam with rice",
-//       "Rasmalai (Sweet)",
-//       "Carrot halwa",
-//       "Icecream",
-//     ],
-//   },
-// };
-
 export const menuData = {
   breakfast: {
-    title: "Breakfast",
+    title: "Breakfast (6'March)",
     items: [
-      { category: "Beverages", foods: ["Coffee", "Tea", "Orange Juice"] },
       {
-        category: "Main Course",
-        foods: ["Pancakes", "Omelette", "French Toast"],
+        category: "Mains",
+        foods: ["Neer Dosa", "Pongal", "Idly"],
       },
-      { category: "Sides", foods: ["Bacon", "Sausages", "Fruit Salad"] },
+
+      { category: "Sides", foods: ["Chutney", "Sambar"] },
+      {
+        category: "Sweet",
+        foods: ["Kashi Halwa (aka pumkin halwa)"],
+      },
+      {
+        category: "Beverages",
+        foods: ["Coffee", "Tea", "Lemon Pudina juice (after 11AM)"],
+      },
     ],
   },
   lunch: {
-    title: "Lunch",
+    title: "Lunch (6'March)",
     items: [
       {
-        category: "Starters",
-        foods: ["Caesar Salad", "Bruschetta", "Soup of the Day"],
+        category: "Salads",
+        foods: ["Kusumbri", "Sweetcorn salad", "Beans palya"],
       },
       {
-        category: "Main Course",
-        foods: ["Grilled Chicken", "Pasta Primavera", "Vegetable Stir Fry"],
+        category: "Snacks",
+        foods: ["Apla (papad)", "Vegetable bonda", "Patyale"],
       },
-      { category: "Desserts", foods: ["Brownie", "Cheesecake", "Ice Cream"] },
+      {
+        category: "Rice partners",
+        foods: [
+          "Mahabaratha",
+          "Pineapple goggu",
+          "Kutu",
+          "Pepper rasam",
+          "Curd",
+        ],
+      },
+
+      { category: "Sweets", foods: ["Paysa", "Penne", "Badam halwa"] },
     ],
   },
   dinner: {
-    title: "Dinner",
+    title: "Dinner (5'March)",
     items: [
       {
-        category: "Appetizers",
-        foods: ["Garlic Bread", "Stuffed Mushrooms", "Spring Rolls"],
+        category: "Entrees",
+        foods: ["Sugarcane juice", "Masala puri", "Pani puri", "Pudina chat"],
       },
       {
-        category: "Entrees",
-        foods: ["Steak", "Salmon Fillet", "Vegetable Curry"],
+        category: "Appetizers and Starters",
+        foods: ["Coconut soup", "Babycorn manchuri", "Paneer tikka"],
       },
+      {
+        category: "Curry",
+        foods: ["Vegetable curry", "Dal"],
+      },
+      {
+        category: "Mains",
+        foods: [
+          "Cashew Ghee Rice",
+          "Munbagal Dosa",
+          "Tandoori Roti",
+          "Rice + Rasam",
+          "Rice + Curd",
+        ],
+      },
+
       {
         category: "Desserts",
-        foods: ["Chocolate Mousse", "Tiramisu", "Panna Cotta"],
+        foods: ["Rasmalai", "Carrot Halwa", "Ice-cream"],
       },
     ],
   },
