@@ -26,7 +26,7 @@ export default function WelcomeSection() {
           journey
         </p>
 
-        <p className="text-lg mt-4">March 5-6 2025</p>
+        <p className="text-lg mt-4">March 5th & 6th, 2025</p>
       </div>
     </section>
   );
