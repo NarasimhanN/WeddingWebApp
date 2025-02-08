@@ -4,7 +4,7 @@ export const menuData = {
     items: [
       {
         category: "Mains",
-        foods: ["Neer Dosa", "Pongal", "Idly"],
+        foods: ["Neer Dosa", "Pongal", "Idli"],
       },
 
       { category: "Sides", foods: ["Chutney", "Sambar"] },
@@ -23,54 +23,52 @@ export const menuData = {
     items: [
       {
         category: "Salads",
-        foods: ["Kusumbri", "Sweetcorn salad", "Beans palya"],
+        foods: ["Kosambari", "Sweetcorn salad", "Beans palya"],
       },
       {
         category: "Snacks",
-        foods: ["Apla (papad)", "Vegetable bonda", "Patyale"],
+        foods: ["Hapla(papad)", "Vegetable bonda", "Patrode"],
       },
       {
         category: "Rice partners",
         foods: [
-          "Mahabaratha",
-          "Pineapple goggu",
-          "Kutu",
+          "Mahabaratha(raw mango dish)",
+          "Pineapple gojju",
+          "Kootu",
           "Pepper rasam",
           "Curd",
         ],
       },
-
-      { category: "Sweets", foods: ["Paysa", "Penne", "Badam halwa"] },
+      { category: "Sweets", foods: ["Payasam", "Pheni", "Badam halwa"] },
     ],
   },
   dinner: {
     title: "Dinner (5'March)",
     items: [
       {
-        category: "Entrees",
+        category: "Refresh and Crunch Corner",
         foods: ["Sugarcane juice", "Masala puri", "Pani puri", "Pudina chat"],
       },
       {
-        category: "Appetizers and Starters",
-        foods: ["Coconut soup", "Babycorn manchuri", "Paneer tikka"],
+        category: "First Bites & Sips",
+        foods: ["Coconut soup", "Babycorn manchurian", "Paneer tikka"],
       },
       {
-        category: "Curry",
-        foods: ["Vegetable curry", "Dal"],
+        category: "Curry Indulgence",
+        foods: ["Mix Vegetable curry", "Dal"],
       },
       {
-        category: "Mains",
+        category: "Heartfelt Mains",
         foods: [
           "Cashew Ghee Rice",
-          "Munbagal Dosa",
+          "Mulbagal Dosa",
           "Tandoori Roti",
           "Rice + Rasam",
           "Rice + Curd",
         ],
       },
-
       {
-        category: "Desserts",
+        category: "Sugar Rush",
         foods: ["Rasmalai", "Carrot Halwa", "Ice-cream"],
       },
     ],
