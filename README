@@ -1,0 +1,13 @@
+This is a static wedding app developed for sharing with guest.
+
+To check it out :
+Preq : make sure to install node before testing it out.
+
+Steps :
+`git clone https://github.com/NarasimhanN/WeddingWebApp.git`
+
+`cd WeddingWebApp`
+
+`npm install`
+
+`npm run dev -- --host`
