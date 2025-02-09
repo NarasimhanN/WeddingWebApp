@@ -18,7 +18,8 @@ export default function WelcomeSection() {
         </p>
 
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          Riya Athreya & Narasimhan N
+          Riya Athreya <br />& <br />
+          Narasimhan N
         </h1>
         <p className="text-l md:text-2xl">
           welcome you to our wedding where every smile, every laugh, and every

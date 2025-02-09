@@ -1,5 +1,5 @@
 import { Clock, MapPin } from "lucide-react";
-
+import AddToCalendarButton from "../Components/AddToCalander";
 export default function EventDetailsSection() {
   return (
     <section className="py-20 px-4 bg-gray-50">
@@ -13,13 +13,16 @@ export default function EventDetailsSection() {
             <h5> 7:00 PM on 5th March (Wed)</h5>
             <h4 className="font-bold"> Muhurtham</h4>
             <h5> 11:10 AM on 6th March (Thu) </h5>
+            <br />
+            <AddToCalendarButton />
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <MapPin className="w-8 h-8 mb-4 text-pink-500" />
             <h3 className="text-xl font-semibold mb-2">Venue</h3>
             <p className="font-bold">Balan Orchard</p>
+            <p>Near Brigade Millenium</p>
             <p>Nataraja Layot</p>
-            <p>JP Nagar-560078</p>
+            <p>JP Nagar 560078</p>
             <a
               href="https://maps.app.goo.gl/w9moeWQdUQ8DtM3ZA"
               className="text-pink-500 hover:text-pink-600 mt-2 inline-block"
