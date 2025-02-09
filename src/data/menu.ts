@@ -4,17 +4,17 @@ export const menuData = {
     items: [
       {
         category: "Mains",
-        foods: ["Neer Dosa", "Pongal", "Idli"],
+        foods: ["Neer dosa", "Pongal", "Idli"],
       },
 
       { category: "Sides", foods: ["Chutney", "Sambar"] },
       {
         category: "Sweet",
-        foods: ["Kashi Halwa (aka pumkin halwa)"],
+        foods: ["Kashi halwa (aka pumpkin halwa)"],
       },
       {
         category: "Beverages",
-        foods: ["Coffee", "Tea", "Lemon Pudina juice (after 11AM)"],
+        foods: ["Coffee", "Tea", "Lemon pudina juice (after 11AM)"],
       },
     ],
   },
@@ -27,12 +27,12 @@ export const menuData = {
       },
       {
         category: "Snacks",
-        foods: ["Hapla(papad)", "Vegetable bonda", "Patrode"],
+        foods: ["Hapla (papad)", "Vegetable bonda", "Patrode"],
       },
       {
         category: "Rice partners",
         foods: [
-          "Mahabaratha(raw mango dish)",
+          "Mahabaratha (raw mango dish)",
           "Pineapple gojju",
           "Kootu",
           "Pepper rasam",
@@ -55,21 +55,21 @@ export const menuData = {
       },
       {
         category: "Curry Indulgence",
-        foods: ["Mix Vegetable curry", "Dal"],
+        foods: ["Mix vegetable curry", "Dal"],
       },
       {
         category: "Heartfelt Mains",
         foods: [
-          "Cashew Ghee Rice",
-          "Mulbagal Dosa",
-          "Tandoori Roti",
+          "Cashew ghee rice",
+          "Mulbagal dosa",
+          "Tandoori roti",
           "Rice + Rasam",
           "Rice + Curd",
         ],
       },
       {
         category: "Sugar Rush",
-        foods: ["Rasmalai", "Carrot Halwa", "Ice-cream"],
+        foods: ["Rasmalai", "Carrot halwa", "Ice-cream"],
       },
     ],
   },

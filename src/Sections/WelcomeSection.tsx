@@ -1,4 +1,4 @@
-import bgImage from "../data/images/EngagementCouplePic-4.png"; // Adjust path accordingly
+import bgImage from "../data/images/EngagementCouplePic-hd3.png"; // Adjust path accordingly
 
 export default function WelcomeSection() {
   return (
@@ -13,20 +13,19 @@ export default function WelcomeSection() {
       </div>
 
       <div className="relative text-center text-white px-4">
+        <br /> <br />
         <p className="text-l md:text-2xl mt-40">
           With hearts full of joy and love, we{" "}
         </p>
-
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Riya Athreya <br />& <br />
           Narasimhan N
         </h1>
         <p className="text-l md:text-2xl">
-          welcome you to our wedding where every smile, every laugh, and every
+          Welcome you to our wedding where every smile, every laugh, and every
           moment becomes a cherished memory. Bless us as we begin this eternal
           journey
         </p>
-
         <p className="text-lg mt-4">March 5th & 6th, 2025</p>
       </div>
     </section>

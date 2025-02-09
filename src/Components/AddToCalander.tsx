@@ -6,7 +6,7 @@ const AddToCalendarButton: React.FC = () => {
 VERSION:2.0
 BEGIN:VEVENT
 SUMMARY:Wedding Ceremony - Riya weds Narasimhan
-DESCRIPTION:Join us for our special day! More info visit https://riyawedssimha.netlify.app/
+DESCRIPTION:Join us for our special day! For more info visit https://riyawedssimha.netlify.app/
 LOCATION: Balan Orchard, JP Nagar, BNG
 DTSTART:20250305T133000Z
 DTEND:20250306T090000Z

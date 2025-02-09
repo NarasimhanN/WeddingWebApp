@@ -132,7 +132,7 @@ export default function FoodSection({ menuData }: MenuSectionProps) {
         <h2 className="text-4xl font-bold text-center tracking-wide mb-2">
           Our Menu
         </h2>
-        <p className="text-center text-lg mb-6">Who doesn’t love great food?</p>
+        <p className="text-center text-lg mb-6">Who doesn’t love good food?</p>
 
         <div className="space-y-6">
           {["dinner", "breakfast", "lunch"].map((section) => (
