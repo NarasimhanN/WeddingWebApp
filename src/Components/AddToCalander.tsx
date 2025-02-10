@@ -34,7 +34,8 @@ END:VCALENDAR`;
       }}
       className="text-pink-500 hover:underline hover:text-blue-800 transition-all duration-200 ease-in-out"
     >
-      📅 Add to Calendar
+      {/* 📅 */}
+      Add to Calendar
     </a>
   );
 };

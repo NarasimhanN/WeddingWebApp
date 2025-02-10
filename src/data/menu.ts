@@ -1,6 +1,6 @@
 export const menuData = {
   breakfast: {
-    title: "Breakfast (6'March)",
+    title: "Breakfast",
     items: [
       {
         category: "Mains",
@@ -19,7 +19,7 @@ export const menuData = {
     ],
   },
   lunch: {
-    title: "Lunch (6'March)",
+    title: "Lunch",
     items: [
       {
         category: "Salads",
@@ -43,7 +43,7 @@ export const menuData = {
     ],
   },
   dinner: {
-    title: "Dinner (5'March)",
+    title: "Dinner",
     items: [
       {
         category: "Refresh and Crunch Corner",
