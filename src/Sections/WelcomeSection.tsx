@@ -8,7 +8,7 @@ export default function WelcomeSection() {
           With hearts full of joy and love, we
         </p>
         <h1 className="text-4xl md:text-6xl font-bold mb-4 font-serif ">
-          Riya Athreya <br />& <br /> Narasimhan N
+          Narasimhan N <br />& <br /> Riya Athreya
         </h1>
         <p className="text-l md:text-2xl">
           Welcome you to our wedding, where every moment is a cherished memory.

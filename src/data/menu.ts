@@ -4,13 +4,13 @@ export const menuData = {
     items: [
       {
         category: "Mains",
-        foods: ["Neer dosa", "Pongal", "Idli"],
+        foods: ["Set Dosa / Mulbagal Dosa", "Pongal", "Idli"],
       },
 
-      { category: "Sides", foods: ["Chutney", "Sambar"] },
+      { category: "Sides", foods: ["Chutney", "Sambar", "Tamrind gojju"] },
       {
         category: "Sweet",
-        foods: ["Kashi halwa (aka pumpkin halwa)"],
+        foods: ["Badam halwa"],
       },
       {
         category: "Beverages",
@@ -23,23 +23,33 @@ export const menuData = {
     items: [
       {
         category: "Salads",
-        foods: ["Kosambari", "Sweetcorn salad", "Beans palya"],
+        foods: ["Carrot congresss kosambari", "Corn pomagranate kosambari"],
+      },
+      {
+        category: "Palyas",
+        foods: ["Beans palya", "Aloo capsicum palya", "Bendi fry"],
       },
       {
         category: "Snacks",
-        foods: ["Hapla (papad)", "Vegetable bonda", "Patrode"],
+        foods: ["Hapla (papad)", "Vegetable bonda", "Pathrode"],
       },
       {
         category: "Rice partners",
         foods: [
+          "Puliyogare",
+          "Tovee",
+          "Majjige huli",
           "Mahabaratha (raw mango dish)",
           "Pineapple gojju",
-          "Kootu",
-          "Pepper rasam",
+          "Vegetable Kootu",
+          "Rasam",
           "Curd",
         ],
       },
-      { category: "Sweets", foods: ["Payasam", "Pheni", "Badam halwa"] },
+      {
+        category: "Sweets",
+        foods: ["Dates Payasam", "Pheni", "Hallbai", "Kesar pista ice-cream"],
+      },
     ],
   },
   dinner: {
@@ -47,11 +57,16 @@ export const menuData = {
     items: [
       {
         category: "Refresh and Crunch Corner",
-        foods: ["Sugarcane juice", "Masala puri", "Pani puri", "Pudina chat"],
+        foods: ["Sugarcane juice", "Masala puri", "Pani puri"],
       },
       {
         category: "First Bites & Sips",
-        foods: ["Coconut soup", "Babycorn manchurian", "Paneer tikka"],
+        foods: [
+          "Tomato soup",
+          "Sweet corn soup",
+          "Babycorn manchurian",
+          "Paneer tikka",
+        ],
       },
       {
         category: "Curry Indulgence",
@@ -61,8 +76,8 @@ export const menuData = {
         category: "Heartfelt Mains",
         foods: [
           "Cashew ghee rice",
-          "Mulbagal dosa",
-          "Tandoori roti",
+          "Neer dosa + chutney",
+          "Butter tandoori roti",
           "Rice + Rasam",
           "Rice + Curd",
         ],
